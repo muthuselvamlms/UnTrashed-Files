@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C8E2041B425D380078A5E9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C8E2031B425D380078A5E9 /* AppKit.framework */; };
+		16C8E2061B425D380078A5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C8E2051B425D380078A5E9 /* Foundation.framework */; };
+		16C8E20B1B425D380078A5E9 /* unwanted_file_remover.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */; };
+		16C8E20E1B425D380078A5E9 /* unwanted_file_remover.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8E20D1B425D380078A5E9 /* unwanted_file_remover.m */; };
+		16C8E2111B425D380078A5E9 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8E2101B425D380078A5E9 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C8E2001B425D380078A5E9 /* unwanted_file_remover.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unwanted_file_remover.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C8E2031B425D380078A5E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		16C8E2051B425D380078A5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		16C8E2091B425D380078A5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = unwanted_file_remover.xcscheme; path = unwanted_file_remover.xcodeproj/xcshareddata/xcschemes/unwanted_file_remover.xcscheme; sourceTree = SOURCE_ROOT; };
+		16C8E20C1B425D380078A5E9 /* unwanted_file_remover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unwanted_file_remover.h; sourceTree = "<group>"; };
+		16C8E20D1B425D380078A5E9 /* unwanted_file_remover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unwanted_file_remover.m; sourceTree = "<group>"; };
+		16C8E20F1B425D380078A5E9 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		16C8E2101B425D380078A5E9 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C8E1FE1B425D380078A5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C8E2041B425D380078A5E9 /* AppKit.framework in Frameworks */,
+				16C8E2061B425D380078A5E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C8E1F71B425D370078A5E9 = {
+			isa = PBXGroup;
+			children = (
+				16C8E2071B425D380078A5E9 /* unwanted_file_remover */,
+				16C8E2021B425D380078A5E9 /* Frameworks */,
+				16C8E2011B425D380078A5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C8E2011B425D380078A5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C8E2001B425D380078A5E9 /* unwanted_file_remover.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C8E2021B425D380078A5E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C8E2031B425D380078A5E9 /* AppKit.framework */,
+				16C8E2051B425D380078A5E9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C8E2071B425D380078A5E9 /* unwanted_file_remover */ = {
+			isa = PBXGroup;
+			children = (
+				16C8E20C1B425D380078A5E9 /* unwanted_file_remover.h */,
+				16C8E20D1B425D380078A5E9 /* unwanted_file_remover.m */,
+				16C8E20F1B425D380078A5E9 /* NSObject_Extension.h */,
+				16C8E2101B425D380078A5E9 /* NSObject_Extension.m */,
+				16C8E2081B425D380078A5E9 /* Supporting Files */,
+			);
+			path = unwanted_file_remover;
+			sourceTree = "<group>";
+		};
+		16C8E2081B425D380078A5E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C8E2091B425D380078A5E9 /* Info.plist */,
+				16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C8E1FF1B425D380078A5E9 /* unwanted_file_remover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C8E2141B425D380078A5E9 /* Build configuration list for PBXNativeTarget "unwanted_file_remover" */;
+			buildPhases = (
+				16C8E1FC1B425D380078A5E9 /* Sources */,
+				16C8E1FD1B425D380078A5E9 /* Resources */,
+				16C8E1FE1B425D380078A5E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unwanted_file_remover;
+			productName = unwanted_file_remover;
+			productReference = 16C8E2001B425D380078A5E9 /* unwanted_file_remover.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C8E1F81B425D370078A5E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Proton Engineers";
+				TargetAttributes = {
+					16C8E1FF1B425D380078A5E9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 16C8E1FB1B425D370078A5E9 /* Build configuration list for PBXProject "unwanted_file_remover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C8E1F71B425D370078A5E9;
+			productRefGroup = 16C8E2011B425D380078A5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C8E1FF1B425D380078A5E9 /* unwanted_file_remover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C8E1FD1B425D380078A5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C8E20B1B425D380078A5E9 /* unwanted_file_remover.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C8E1FC1B425D380078A5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C8E20E1B425D380078A5E9 /* unwanted_file_remover.m in Sources */,
+				16C8E2111B425D380078A5E9 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16C8E2121B425D380078A5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		16C8E2131B425D380078A5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		16C8E2151B425D380078A5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = unwanted_file_remover/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		16C8E2161B425D380078A5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = unwanted_file_remover/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C8E1FB1B425D370078A5E9 /* Build configuration list for PBXProject "unwanted_file_remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C8E2121B425D380078A5E9 /* Debug */,
+				16C8E2131B425D380078A5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C8E2141B425D380078A5E9 /* Build configuration list for PBXNativeTarget "unwanted_file_remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C8E2151B425D380078A5E9 /* Debug */,
+				16C8E2161B425D380078A5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C8E1F81B425D370078A5E9 /* Project object */;
+}
