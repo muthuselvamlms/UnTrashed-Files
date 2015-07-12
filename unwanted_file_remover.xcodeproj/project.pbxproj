@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16C8E2041B425D380078A5E9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C8E2031B425D380078A5E9 /* AppKit.framework */; };
-		16C8E2061B425D380078A5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C8E2051B425D380078A5E9 /* Foundation.framework */; };
+		163BA4C41B50129B00FD3106 /* KFConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163BA4C31B50129B00FD3106 /* KFConsoleController.m */; };
+		163BA4C81B50148E00FD3106 /* KFConsoleThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 163BA4C71B50148E00FD3106 /* KFConsoleThemeModel.m */; };
+		163BA4D01B50184B00FD3106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163BA4CF1B50184B00FD3106 /* Foundation.framework */; };
+		163BA4D21B50185B00FD3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163BA4D11B50185B00FD3106 /* QuartzCore.framework */; };
+		163BA4D61B50191F00FD3106 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163BA4D51B50191F00FD3106 /* AppKit.framework */; };
+		163BA4DA1B5019C400FD3106 /* AMR_ANSIEscapeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 163BA4D91B5019C300FD3106 /* AMR_ANSIEscapeHelper.m */; };
 		16C8E20B1B425D380078A5E9 /* unwanted_file_remover.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */; };
 		16C8E20E1B425D380078A5E9 /* unwanted_file_remover.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8E20D1B425D380078A5E9 /* unwanted_file_remover.m */; };
 		16C8E2111B425D380078A5E9 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8E2101B425D380078A5E9 /* NSObject_Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163BA4C21B50129B00FD3106 /* KFConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFConsoleController.h; sourceTree = "<group>"; };
+		163BA4C31B50129B00FD3106 /* KFConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFConsoleController.m; sourceTree = "<group>"; };
+		163BA4C61B50148E00FD3106 /* KFConsoleThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFConsoleThemeModel.h; sourceTree = "<group>"; };
+		163BA4C71B50148E00FD3106 /* KFConsoleThemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFConsoleThemeModel.m; sourceTree = "<group>"; };
+		163BA4CA1B5017D100FD3106 /* DVTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		163BA4CB1B5017D100FD3106 /* DVTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTKit.h; sourceTree = "<group>"; };
+		163BA4CC1B5017D100FD3106 /* IDEFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
+		163BA4CD1B5017D100FD3106 /* IDEKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEKit.h; sourceTree = "<group>"; };
+		163BA4CE1B5017D100FD3106 /* IDESourceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceEditor.h; sourceTree = "<group>"; };
+		163BA4CF1B50184B00FD3106 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		163BA4D11B50185B00FD3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		163BA4D51B50191F00FD3106 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		163BA4D81B5019C300FD3106 /* AMR_ANSIEscapeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMR_ANSIEscapeHelper.h; sourceTree = "<group>"; };
+		163BA4D91B5019C300FD3106 /* AMR_ANSIEscapeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMR_ANSIEscapeHelper.m; sourceTree = "<group>"; };
 		16C8E2001B425D380078A5E9 /* unwanted_file_remover.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unwanted_file_remover.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		16C8E2031B425D380078A5E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		16C8E2051B425D380078A5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		16C8E2091B425D380078A5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = unwanted_file_remover.xcscheme; path = unwanted_file_remover.xcodeproj/xcshareddata/xcschemes/unwanted_file_remover.xcscheme; sourceTree = SOURCE_ROOT; };
 		16C8E20C1B425D380078A5E9 /* unwanted_file_remover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unwanted_file_remover.h; sourceTree = "<group>"; };
@@ -31,14 +47,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C8E2041B425D380078A5E9 /* AppKit.framework in Frameworks */,
-				16C8E2061B425D380078A5E9 /* Foundation.framework in Frameworks */,
+				163BA4D61B50191F00FD3106 /* AppKit.framework in Frameworks */,
+				163BA4D21B50185B00FD3106 /* QuartzCore.framework in Frameworks */,
+				163BA4D01B50184B00FD3106 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163BA4BF1B50123700FD3106 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4D71B5019A200FD3106 /* AMR_ANSIEscapeHelper */,
+				163BA4C01B50127D00FD3106 /* CocoaPods */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		163BA4C01B50127D00FD3106 /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4C91B5017D100FD3106 /* XcodeClasses */,
+				163BA4C51B50147200FD3106 /* modal */,
+				163BA4C11B50128A00FD3106 /* Controller */,
+			);
+			name = CocoaPods;
+			sourceTree = "<group>";
+		};
+		163BA4C11B50128A00FD3106 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4C21B50129B00FD3106 /* KFConsoleController.h */,
+				163BA4C31B50129B00FD3106 /* KFConsoleController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		163BA4C51B50147200FD3106 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4C61B50148E00FD3106 /* KFConsoleThemeModel.h */,
+				163BA4C71B50148E00FD3106 /* KFConsoleThemeModel.m */,
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		163BA4C91B5017D100FD3106 /* XcodeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4CA1B5017D100FD3106 /* DVTFoundation.h */,
+				163BA4CB1B5017D100FD3106 /* DVTKit.h */,
+				163BA4CC1B5017D100FD3106 /* IDEFoundation.h */,
+				163BA4CD1B5017D100FD3106 /* IDEKit.h */,
+				163BA4CE1B5017D100FD3106 /* IDESourceEditor.h */,
+			);
+			path = XcodeClasses;
+			sourceTree = "<group>";
+		};
+		163BA4D71B5019A200FD3106 /* AMR_ANSIEscapeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				163BA4D81B5019C300FD3106 /* AMR_ANSIEscapeHelper.h */,
+				163BA4D91B5019C300FD3106 /* AMR_ANSIEscapeHelper.m */,
+			);
+			name = AMR_ANSIEscapeHelper;
+			sourceTree = "<group>";
+		};
 		16C8E1F71B425D370078A5E9 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +134,9 @@
 		16C8E2021B425D380078A5E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16C8E2031B425D380078A5E9 /* AppKit.framework */,
-				16C8E2051B425D380078A5E9 /* Foundation.framework */,
+				163BA4D51B50191F00FD3106 /* AppKit.framework */,
+				163BA4D11B50185B00FD3106 /* QuartzCore.framework */,
+				163BA4CF1B50184B00FD3106 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -68,6 +144,7 @@
 		16C8E2071B425D380078A5E9 /* unwanted_file_remover */ = {
 			isa = PBXGroup;
 			children = (
+				163BA4BF1B50123700FD3106 /* 3rdParty */,
 				16C8E20C1B425D380078A5E9 /* unwanted_file_remover.h */,
 				16C8E20D1B425D380078A5E9 /* unwanted_file_remover.m */,
 				16C8E20F1B425D380078A5E9 /* NSObject_Extension.h */,
@@ -153,7 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163BA4DA1B5019C400FD3106 /* AMR_ANSIEscapeHelper.m in Sources */,
+				163BA4C81B50148E00FD3106 /* KFConsoleThemeModel.m in Sources */,
 				16C8E20E1B425D380078A5E9 /* unwanted_file_remover.m in Sources */,
+				163BA4C41B50129B00FD3106 /* KFConsoleController.m in Sources */,
 				16C8E2111B425D380078A5E9 /* NSObject_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +359,7 @@
 				16C8E2161B425D380078A5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
