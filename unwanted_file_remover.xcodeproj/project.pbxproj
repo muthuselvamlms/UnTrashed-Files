@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008F81521B79F1320094ED15 /* Screen Shot 2015-08-11 at 2.23.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 008F81511B79F1320094ED15 /* Screen Shot 2015-08-11 at 2.23.56 PM.png */; };
 		163BA4C41B50129B00FD3106 /* KFConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163BA4C31B50129B00FD3106 /* KFConsoleController.m */; };
 		163BA4C81B50148E00FD3106 /* KFConsoleThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 163BA4C71B50148E00FD3106 /* KFConsoleThemeModel.m */; };
 		163BA4D01B50184B00FD3106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163BA4CF1B50184B00FD3106 /* Foundation.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008F81511B79F1320094ED15 /* Screen Shot 2015-08-11 at 2.23.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-08-11 at 2.23.56 PM.png"; sourceTree = "<group>"; };
 		163BA4C21B50129B00FD3106 /* KFConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFConsoleController.h; sourceTree = "<group>"; };
 		163BA4C31B50129B00FD3106 /* KFConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFConsoleController.m; sourceTree = "<group>"; };
 		163BA4C61B50148E00FD3106 /* KFConsoleThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFConsoleThemeModel.h; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				16C8E2091B425D380078A5E9 /* Info.plist */,
+				008F81511B79F1320094ED15 /* Screen Shot 2015-08-11 at 2.23.56 PM.png */,
 				16C8E20A1B425D380078A5E9 /* unwanted_file_remover.xcscheme */,
 			);
 			name = "Supporting Files";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16C8E20B1B425D380078A5E9 /* unwanted_file_remover.xcscheme in Resources */,
+				008F81521B79F1320094ED15 /* Screen Shot 2015-08-11 at 2.23.56 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
