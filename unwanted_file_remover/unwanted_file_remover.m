@@ -79,6 +79,9 @@
                         [self printmsgOnXcodeConsole:[NSString stringWithFormat:@"Not Found : %@",path]];
                     }
                 }
+                else if ([[[path componentsSeparatedByString:@"/"] lastObject] isEqualToString:@"Pods"]) {
+                    //Ignore it.
+                }
                 else {
                     [self IdentifyUnusedFiles:path];
                 }
